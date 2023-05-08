@@ -14,7 +14,7 @@ ul.social-network li {
 	background-color:#26282d;
 }
 .social-network a.icoWhatsapp:hover {
-	background-color:#41c17d;
+	background-color: #2fbe60;
 }
 .social-network a.icoLinkedin:hover {
 	background-color:#007bb7;
@@ -40,7 +40,7 @@ a.socialIcon:hover, .socialHoverClass {
 	width: 50px;
 	height: 50px;
 	font-size:20px;
-	background-color: #D3D3D3;
+	background-color: #0d6efd;
 }
 .social-circle li i {
 	margin:0;
