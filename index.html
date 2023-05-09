@@ -196,19 +196,20 @@
 
         <div class="col-lg-6">
           <!-- form fields -->
-          <form>
-            <input type="text" class="form-control form-control-lg" placeholder="Nome">
-            <input type="email" class="form-control mt-3" placeholder="E-mail">
-            <input type="text" class="form-control mt-3" placeholder="Titulo">
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="f9280b6c-cc92-4bb2-8ce1-88b5c187872c">
+            <input name="name" type="text" class="form-control form-control-lg" placeholder="Nome">
+            <input name="email" type="email" class="form-control mt-3" placeholder="E-mail">
+            <input name="subject" type="text" class="form-control mt-3" placeholder="Titulo">
             <div class="mb-3 mt-3">
-              <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Detalhes"></textarea>
+              <textarea name="message" class="form-control" rows="5" id="comment" name="text" placeholder="Detalhes"></textarea>
             </div>
+            <button class="btn btn-success mt-3">Contate-me</button>
           </form>
-          <button type="button" class="btn btn-success mt-3">Contate-me</button>
-
         </div>
 
       </div>
+      
     </div>
   </section>
 
